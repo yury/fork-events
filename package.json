@@ -1,0 +1,15 @@
+{
+  "name": "fork-events",
+  "version": "1.0.0",
+  "description": "Turns messages to events",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/lab -l -L"
+  },
+  "author": "Yury Korolev",
+  "license": "ISC",
+  "devDependencies": {
+    "code": "^1.2.1",
+    "lab": "^5.1.1"
+  }
+}
