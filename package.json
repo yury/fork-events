@@ -1,6 +1,6 @@
 {
   "name": "fork-events",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Turns messages to events",
   "main": "index.js",
   "scripts": {
@@ -11,5 +11,23 @@
   "devDependencies": {
     "code": "^1.2.1",
     "lab": "^5.1.1"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yury/fork-events.git"
+  },
+  "keywords": [
+    "fork",
+    "events",
+    "gulp",
+    "hapi",
+    "nodemon"
+  ],
+  "bugs": {
+    "url": "https://github.com/yury/fork-events/issues"
+  },
+  "homepage": "https://github.com/yury/fork-events"
 }
