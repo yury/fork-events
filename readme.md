@@ -1,6 +1,6 @@
 Example of gulp serve task with fork-events instead of nodemon
 
-```
+```js
 gulp.task('serve', function() {
   var server = ForkEvents.fork('.'); // Your server script
 
@@ -27,7 +27,7 @@ gulp.task('serve', function() {
 
 On hapi side you just need to add 3 lines of code to start callback
 
-```
+```js
 // index.js
 Glue.compose(manifest, {relativeTo: Path.join(__dirname, '.')}, function (err, server) {
   server.start(function () {
